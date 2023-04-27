@@ -15,11 +15,11 @@ In the project directory, you can run:
 
 - [x] Base do projeto
 
+- [X] responsividade - 50%
+
 - [ ] comportamentos dos botões
 
 - [ ] dropdowns
-
-- [ ] responsividade
 
 - [ ] Melhorias
 
