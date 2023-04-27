@@ -1,8 +1,9 @@
 .w-line-btn{
-    width: 120px;
-    height: 30px;
-    padding: 10px;
+    width: fit-content;
+    height: 20px;
+    padding: 10px 20px;
     text-decoration: none;
+    color: var(--Medium_Gray);
     font-size: small;
     display: flex;
     justify-content: center;

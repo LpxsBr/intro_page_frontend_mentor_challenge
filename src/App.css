@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Epilogue&display=swap');
 
 :root{
-  --White: hsl(0, 0%, 98%);
-  --Medium_Gray: h 1sl(0, 0%, 41%);
+  --Almost_White: hsl(0, 0%, 98%);
+  --Medium_Gray: hsl(0, 0%, 41%);
   --Almost_Black: hsl(0, 0%, 8%);
-  --logo: 100px;
+  --logo: 70px;
 }
 
 *{
@@ -13,21 +13,13 @@
 }
 
 body{
-  width: 100%;
+  height: 100vh;
   margin: 0;
 }
 
 a{
   text-decoration: none;
-  color: #000;
+  color: var(--Medium_Gray);
 }
 
-a:visited{color: #000;}
-
-
-@media (max-width: calc(375px*2)) {
-  body{
-    min-width: 375px;
-    background-color: aquamarine;
-  }
-}
+a:visited{color: auto}

@@ -1,8 +1,9 @@
-.a-btn{
-    width: 120px;
-    height: 30px;
-    padding: 10px;
-    border: 1px  solid #000;
+.secondary-btn{
+    width: fit-content;
+    height: 20px;
+    padding: 10px 20px;
+    border: 1px  solid var(--Almost_Black);
+    color: var(--Medium_Gray);
     border-radius: 12px;
     text-decoration: none;
     font-size: small;
