@@ -13,13 +13,13 @@ In the project directory, you can run:
 
 ### Tasks
 
-<input type="checkbox" checked> Base do projeto
+- [x] Base do projeto
 
-<input type="checkbox" > comportamentos dos botões
+- [ ] comportamentos dos botões
 
-<input type="checkbox" > dropdowns
+- [ ] dropdowns
 
-<input type="checkbox" > responsividade
+- [ ] responsividade
 
-<input type="checkbox" > Melhorias
+- [ ] Melhorias
 
