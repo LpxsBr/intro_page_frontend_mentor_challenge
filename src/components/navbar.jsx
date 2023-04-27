@@ -1,8 +1,17 @@
+import { useState } from 'react';
 import LineButton from './buttons/lineButton';
 import WithoutLineButton from './buttons/withoutLineButton';
 import './navbar.css';
 
 function Navbar() {
+
+    const [menuOption, setMenuOption] = useState('icon-menu')
+
+    const setMenuHandler = () => {
+        if(menuOption === 'icon-menu') setMenuOption('icon-close-menu')
+        if(menuOption === 'icon-close-menu') setMenuOption('icon-menu')
+    }
+
     return(
     <header className='header'>
         <div className="logo">
@@ -23,6 +32,11 @@ function Navbar() {
                     <LineButton redirectTo={'register'} title={'Register'}/>
                 </div>
             </nav>
+        </div>
+        <div className='mob-menu'>
+            <button onClick={setMenuHandler}>
+                <img src={`./images/${menuOption}.svg`} alt="" />
+            </button>
         </div>
     </header>)
 }

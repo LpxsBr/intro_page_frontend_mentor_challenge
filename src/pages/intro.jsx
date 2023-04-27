@@ -5,6 +5,9 @@ function Intro(){
     return (
         <main className='main'>
             <div className="intro">
+                <div className="image-mobile" >
+                    <img src="./images/image-hero-mobile.png"/>
+                </div>
                 <div className="text">
                     <h1 className='heading-text-1'>
                         Make remote work
@@ -17,14 +20,14 @@ function Intro(){
                     
                     <FilledButton title={'Learn more'}/>
                     
-                    <div className="client">
+                    <div className="client-area">
                         <img src="./images/client-databiz.svg" alt="client " className="client" />
                         <img src="./images/client-audiophile.svg" alt="client " className="client" />
                         <img src="./images/client-meet.svg" alt="client " className="client" />
                         <img src="./images/client-maker.svg" alt="client " className="client" />
                     </div>
                 </div>
-                <div className="image">
+                <div className="image-desktop" >
                     <img src="./images/image-hero-desktop.png"/>
                 </div>
             </div>
