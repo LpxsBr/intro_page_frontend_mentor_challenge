@@ -1,0 +1,47 @@
+main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.intro{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    padding: 20px 0;
+}
+
+.image > img{
+    width: 350px;
+}
+
+.text{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px 0;
+}
+
+.text .client {
+    display: flex;
+    gap: 20px;
+    height: 20px;
+}
+
+h1{
+    margin: 0;
+    width: 380px;
+    font-size: 60px;
+    font-weight: 900;
+    color: var(--Almost_Black);
+}
+
+p{
+    width: 320px;
+    font-size: small;
+    font-weight: 600;
+    line-height: 25px;
+    color: var(--Medium_Gray);
+}
