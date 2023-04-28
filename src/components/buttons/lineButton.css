@@ -11,3 +11,8 @@
     justify-content: center;
     align-items: center;
 }
+
+.secondary-btn:hover{
+    border-width: 1.34px;
+    color: var(--Almost_Black);
+}

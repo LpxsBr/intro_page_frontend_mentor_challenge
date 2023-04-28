@@ -27,6 +27,11 @@
     color: var(--Medium_Gray);
 }
 
+a:hover{
+    color: var(--Almost_Black);
+    transform: scale(1.01);
+}
+
 .navigation{
     width: calc(100% - var(--logo));
 }

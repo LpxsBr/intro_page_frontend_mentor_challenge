@@ -3,12 +3,35 @@
     height: 20px;
     padding: 10px 20px;
     background-color: var(--Almost_Black);
-    color: var(--Almost_White);
+    border: 1px solid;
+    border-color: transparent;
     border-radius: 12px;
+    color: var(--Almost_White);
     text-decoration: none;
     font-size: small;
     font-weight: 700;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.primary-btn:hover{
+    background-color: var(--Almost_White);
+    border: 1px solid var(--Almost_Black);
+    color: var(--Almost_Black);
+    animation-name: hoverBtn;
+    animation-duration: 0.2s;
+    transform: scale(1.1);
+}
+
+@keyframes hoverBtn {
+    from{
+        background-color: var(--Almost_Black);
+        color: var(--Almost_White);
+    }
+    to{ 
+        background-color: var(--Almost_White);
+        color: var(--Almost_Black);
+        border: 1px solid var(--Almost_Black);
+    }
 }
