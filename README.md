@@ -15,9 +15,9 @@ In the project directory, you can run:
 
 - [x] Base do projeto
 
-- [X] responsividade - 50%
+- [ ] responsividade - 50% - ``` currently working ```
 
-- [ ] comportamentos dos botões
+- [ ] comportamentos dos botões - 50% - ``` currently working ```
 
 - [ ] dropdowns
 
